@@ -6,9 +6,38 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Mini Bank</title>
 </head>
-<body>
-  <h1 class="text-3xl font-bold text-center">
-    Welcome to Mini Bank
-  </h1>
+<body class="bg-amber-100">
+  <div class="w-3/4 mx-auto mt-12">
+    <h1 class="text-5xl font-bold text-center mb-16">Welcome to <span class="text-lime-500">Mini Bank</span></h1>
+    <div class="flex justify-between gap-5">
+      <div class="bg-green-400 flex-1 h-44 p-6  rounded-xl">
+        <h6 class="text-xl text-white font-semibold">Deposit</h6>
+        <p class="text-3xl text-white font-semibold">$<span>5</span></p>
+      </div>
+      
+      <div class="bg-yellow-400 flex-1 p-6  rounded-xl">
+        <h6 class="text-xl text-white font-semibold">Withdraw</h6>
+        <p class="text-3xl text-white font-semibold">$<span>5</span></p>
+      </div>
+
+      <div class="bg-cyan-400 flex-1 p-6  rounded-xl">
+        <h6 class="text-xl text-white font-semibold">Balance</h6>
+        <p class="text-3xl text-white font-semibold">$<span>5</span></p>
+      </div>
+    </div>
+    <div class="flex justify-between mt-5 gap-5">
+      <div class="bg-orange-400 p-6 rounded-xl flex-1">
+        <h6 class="text-xl text-white font-semibold">Deposit Amount</h6>
+        <input class="block my-3 px-3 py-2 w-4/5" type="text" placeholder="$ Amount you want to deposit">
+        <button class="bg-emerald-400 hover:bg-emerald-500 px-7 py-2 text-white rounded-lg">Deposit</button>
+      </div>
+      <div class="bg-fuchsia-400 p-6 rounded-xl flex-1">
+        <h6 class="text-xl text-white font-semibold">Withdraw Amount</h6>
+        <input class="block my-3 px-3 py-2 w-4/5" type="text" placeholder="$ Amount you want to Withdraw">
+        <button class="bg-lime-400 hover:bg-lime-500 px-7 py-2 text-white rounded-lg">Withdraw</button>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
